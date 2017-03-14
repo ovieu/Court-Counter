@@ -8,14 +8,18 @@
     android:orientation="vertical">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Team A"/>
+            android:text="Team A"
+            android:gravity="center"
+            android:padding="4dp"/>
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="0"/>
+            android:text="0"
+            android:gravity="center"
+            android:padding="4dp"/>
 
         <Button
             android:layout_width="match_parent"
