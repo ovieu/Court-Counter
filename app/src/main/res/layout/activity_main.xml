@@ -27,6 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
+            android:onClick="addThreeForTeamA"
             android:text="+3 Points"
             android:textAllCaps="true"/>
 
@@ -34,12 +35,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
+            android:onClick="addTwForTeamA"
             android:text="+2 Points"
             android:textAllCaps="true"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="addOneForTeamA"
             android:text="Free Throw"
             android:textAllCaps="true"/>
 

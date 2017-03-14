@@ -2,6 +2,7 @@ package com.example.andriod.courtcounter;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -18,5 +19,17 @@ public class MainActivity extends AppCompatActivity {
     public void displayForTeamA(int score) {
         TextView scoreView = (TextView) findViewById(R.id.team_a_score);
         scoreView.setText(String.valueOf(score));
+    }
+
+    public void addThreeForTeamA(View v) {
+        displayForTeamA(3);
+    }
+
+    public void addTwForTeamA(View v) {
+        displayForTeamA(2);
+    }
+
+    public void addOneForTeamA(View v) {
+        displayForTeamA(1);
     }
 }
